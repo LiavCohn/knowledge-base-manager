@@ -1,0 +1,69 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .clear {
+    padding: 8px 12px;
+    background-color: #949494;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  button.clear:hover {
+    background-color: #a7a6a6;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .article-list {
+    margin-top: 30px;
+  }
+  
+  .article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  .form {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+  }
+  
+
+  .button-container {
+    display: flex;
+    gap: 10px; /* space between buttons */
+    margin-top: 10px;
+  }
