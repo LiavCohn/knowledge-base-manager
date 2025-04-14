@@ -52,6 +52,6 @@ cd knowledge-base-app
 
 ### Frontend setup
 
-- cd backend
+- cd frontend
 - npm install
 - start the frontend: npm run dev
